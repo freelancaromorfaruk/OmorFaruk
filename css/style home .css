@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+.conteint {
+    width: 1030px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.mein_menu ul li {
+    display: inline-block;
+    padding: 21px 50px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.mein_menu ul li:hover{
+    background: #0ae50a;
+    box-shadow: 0px 8px 90px;
+}
+
+.mein_menu ul li:hover a{
+    color:#fb5200 ;
+}
+
+
+.menubar_repar {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+}
+
+#menu_bar {
+    background: #d9d9d9;
+    overflow: hidden;
+}
+
+.mein_menu ul li a i {
+    margin-right: 20px;
+    color: #fb5200;
+}
+
+.home_img{
+    background: url("../pikcar/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    box-shadow: 0px 1px 10px;
+    width: auto;
+}
+.titele h1 {
+    text-align: center;
+    background: #0ae50a;
+    padding: 10px 10px;
+    box-shadow: 0px 8px 90px;
+}
+
+.titele {
+    width: 578px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.drop_down a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  
+.drop_down {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  }
+
+  #d_li:hover .drop_down{
+      display: block !important;
+  }
+  #d_li:hover .drop_down a{
+    color: black !important;
+  }
